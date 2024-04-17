@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Favorita</title>
+</head>
+<body>
+    
+    <header class="header">
+        <img src="assets/logofavorita.png" id="logo" alt="logo">
+        <nav>
+            <ul id="styleNavBar">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="inicio" id="inicio">
+            <div id="principal">
+                <h1>Sua saúde, nosso compromisso</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur quod inventore ipsum ipsam officia, nam nisi vitae provident quos voluptatem consequatur autem officiis facere vel maiores soluta porro nesciunt quae ea, laborum atque et eius nulla dolore! Nisi similique deserunt magnam ipsam perferendis quas excepturi dolore assumenda qui nulla animi, a rerum. Accusantium sequi, ad quae quod natus culpa aliquam doloribus obcaecati veritatis ex ducimus. Asperiores, libero laborum impedit maiores eligendi earum, optio perspiciatis in voluptate, qui consectetur deleniti dolorum repellendus commodi labore ipsam nisi neque ad. Amet in fugit id et corrupti qui voluptatum harum! Perspiciatis alias, animi quibusdam accusamus reiciendis sed repellendus ex veritatis doloremque dolorum accusantium rerum sapiente mollitia, ducimus est fuga quaerat blanditiis dicta eveniet hic ut ullam nulla? Non, sunt ex corrupti temporibus amet illo! Beatae ea eaque, eligendi similique quisquam culpa quidem quibusdam dolores aspernatur cupiditate quas natus! Quis, nihil esse dicta quae culpa accusantium, magnam sunt illum suscipit a labore quam, at dolor voluptatum ea. Amet, ducimus aliquid libero cupiditate culpa cumque numquam pariatur. Magni, repudiandae voluptas quia mollitia voluptatem ut, aspernatur ullam ipsum nemo nobis ea ipsa, voluptatibus doloremque iste natus molestiae dolorem. Quidem enim autem beatae velit necessitatibus exercitationem quam accusantium!</p>
+                <button><a id="btnContato" href="#contato">Encontrar a Favorita mais perto</a></button>
+            </div>
+            <div>
+                <img id="personagem" src="assets/personagem2.png" alt="personagem" />
+            </div>
+        </div>
+
+        <div class="servicos" id="servicos">
+            
+            <div id="servicosHeadline">
+                <h1>Mais que uma Farmácia</h1>
+                <p>Onde tradição e confiança se encontram</p>
+            </div>
+    
+            <div id="sections">
+                <section>
+                    <img class="imgSection" src="assets/medicine-black.png" alt="icon" />
+                    <h1>Remédios e Vitaminas</h1>
+                    <p>Seu conteúdo vai aqui. Edite ou remova este texto inline ou nas configurações de conteúdo do módulo. Você também pode estilizar todos os aspectos deste conteúdo no arquivo</p>
+                </section>
+            
+                <section>
+                    <img class="imgSection" src="assets/vaccination-black.png" alt="icon" />
+                    <h1>Vacinações</h1>
+                    <p>Seu conteúdo vai aqui. Edite ou remova este texto inline ou nas configurações de conteúdo do módulo. Você também pode estilizar todos os aspectos deste conteúdo no arquivo</p>
+                </section>
+                
+                <section>
+                    <img class="imgSection" src="assets/records-black.png"alt="icon" />
+                    <h1>Registros armazenados</h1>
+                    <p>Seu conteúdo vai aqui. Edite ou remova este texto inline ou nas configurações de conteúdo do módulo. Você também pode estilizar todos os aspectos deste conteúdo no arquivo</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="contato" id="contato">
+            <h1>Escolha a unidade mais próxima da sua casa</h1>
+
+            <select name="endereco" id="endereco" size="1">
+                <option selected value="">Selecione uma opção:</option>
+
+                <optgroup label="Icaraí" /> 
+                <option value="https://wa.me/552126121000?text=Quero+fazer+um+pedido">Av. Sete de Setembro, n 284</option>
+                <option value="https://wa.me/552127116060?text=Quero+fazer+um+pedido">Av. Sete de Setembro, n 230</option>
+                <option value="https://wa.me/552136025000?text=Quero+fazer+um+pedido">Rua Mariz e Barros, n 335</option>
+                <option value="https://wa.me/552126106000?text=Quero+fazer+um+pedido">Rua Cinco de julho, n 367</option>
+                
+                <optgroup label="Santa Rosa" />
+                <option value="https://wa.me/552127111100?text=Quero+fazer+um+pedido">Rua Santa Rosa, n 146</option>
+                
+                <optgroup label="Vital Brasil" />
+                <option value="https://wa.me/552137010550?text=Quero+fazer+um+pedido">Rua Mário Viana, n 497</option>
+                
+                <optgroup label="Beltrão" />
+                <option value="https://wa.me/552136020236?text=Quero+fazer+um+pedido">Rua Mário Viana, n 683, LJ 01</option>
+            </select>
+
+            <button onclick="cliqueBtn()" id="btn">Chamar no Whatsapp</button>
+        </div>
+    </main>]
+    
+</body>
+    <script src="script.js"></script>
+</html>

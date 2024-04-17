@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (max-width:700px){
+    * {
+        margin: 0;    
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    nav {
+        display: flex;
+        padding: 15px;
+    }
+
+    .inicio {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    #principal {
+        max-width: 350px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    #personagem {
+        width: 350px;
+    }
+
+    .servicos {
+        display: flex;
+        flex-direction: column;
+
+        max-width: 400px;
+    }
+    #contato {
+        display: flex;
+        text-align: center;
+        align-items: center;
+    }
+
+    #servicosHeadline {
+        display: flex;
+        text-align: center;
+    }
+
+    div#sections {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+
+        max-width: 350px;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+header {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.164);
+    margin-bottom: 50px;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+#logo {
+    max-width: 150px;
+  }
+
+#styleNavBar { 
+    gap: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover  {
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+#personagem {
+    max-width: 550px;
+}
+
+#principal {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 900px;
+}
+
+button {
+    width: 250px;
+    height: 45px;
+
+    background-color: #371f6b;
+    border: none;
+    border-radius: 7px;
+    color: white;
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+#btnContato {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: #371f6baf;
+    cursor: pointer;
+}
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+    align-items: center;
+}
+
+#servicosHeadline {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+#sections {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+
+    width: 1300px;
+}
+
+section {
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    background-color: rgb(240, 240, 240);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+#contato {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    align-items: center;
+}
+
+#endereco {
+    width: 220px;
+    height: 40px;
+    font-weight: 500;
+}
